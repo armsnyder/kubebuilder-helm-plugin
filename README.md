@@ -1,5 +1,7 @@
 # Kubebuilder Helm Plugin
 
+[![](https://github.com/armsnyder/kubebuilder-helm-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/armsnyder/kubebuilder-helm-plugin/actions/workflows/main.yml)
+
 **Note:** This project is alpha and not intended for production use. It is likely missing features.
 
 `helm.kubebuilder.armsnyder.com` is a config plugin for Kubebuilder that scaffolds a Helm chart for

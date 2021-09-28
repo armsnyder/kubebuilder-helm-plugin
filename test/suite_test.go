@@ -25,9 +25,6 @@ func Test(t *testing.T) {
 }
 
 var _ = BeforeSuite(func() {
-	// Show full diff, useful when comparing scaffolded file contents.
-	format.TruncatedDiff = false
-
 	// Calculate an absolute path to the kubebuilderhelm binary, since we will be running it from
 	// inside test directories.
 	_, callerFilename, _, _ := runtime.Caller(0)

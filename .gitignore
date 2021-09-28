@@ -1,0 +1,9 @@
+# IDE
+.idea
+*.iml
+
+# MacOS
+.DS_Store
+
+# Build files
+bin

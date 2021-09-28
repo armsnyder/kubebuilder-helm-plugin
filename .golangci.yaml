@@ -1,0 +1,9 @@
+# Schema docs: https://golangci-lint.run/usage/configuration/
+
+linters:
+  enable:
+    - goimports
+
+linters-settings:
+  goimports:
+    local-prefixes: github.com/armsnyder/kubebuilder-helm-plugin

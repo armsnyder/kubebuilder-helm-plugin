@@ -1,0 +1,4 @@
+layout:
+- helm.kubebuilder.armsnyder.com/v1-alpha
+projectName: basic
+version: "3"
